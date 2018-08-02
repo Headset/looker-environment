@@ -34,7 +34,7 @@ a node server running in the background so you should have nodejs installed.
 
 1. Add the entry file path to the `webpack.config.js` (Follow same pattern as `forecast.ts` entry in `webpack.config.js`)
 2. run `webpack`
-3. Upload your custom visualization code (ie: /dist/forecast.js) to Wherever you store your code. Note that this should be accessable by Looker.
+3. Upload your custom visualization code (ie: /dist/my-custom-viz.js) to Wherever you store your code. Note that this should be accessable by Looker.
 4. Go to the Admin Page in Looker to add your Visualization
 5. Select the Visualization you want to use in the dropdown on the Explore to use it.
 
