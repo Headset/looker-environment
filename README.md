@@ -21,7 +21,7 @@ a node server running in the background so you should have nodejs installed.
 
 #### Adding a reference to the locally hosted visualization
 
-1.  Go to the [Admin Page](https://headset.looker.com/admin/visualizations) in Looker
+1.  Go to the Admin Page in Looker
 2.  Go to the Visualizations page and add a new visualization with the local url reference to the file
 
     - ID: my-viz-dev
@@ -34,8 +34,8 @@ a node server running in the background so you should have nodejs installed.
 
 1. Add the entry file path to the `webpack.config.js` (Follow same pattern as `forecast.ts` entry in `webpack.config.js`)
 2. run `webpack`
-3. Upload your custom visualization code (ie: /dist/forecast.js) to [Azure Blob Storage](https://portal.azure.com/#blade/Microsoft_Azure_Storage/ContainerMenuBlade/overview/storageAccountId/%2Fsubscriptions%2Fb6bf6da9-2af8-4569-8e40-f4041bdff787%2FresourceGroups%2FDefault-Storage-SouthCentralUS%2Fproviders%2FMicrosoft.ClassicStorage%2FstorageAccounts%2Fheadsetstorage/path/looker/etag/%220x8D5DDD8221A075D%22)
-4. Go to the [Admin Page](https://headset.looker.com/admin/visualizations) in Looker to add your Visualization
+3. Upload your custom visualization code (ie: /dist/forecast.js) to Wherever you store your code. Note that this should be accessable by Looker.
+4. Go to the Admin Page in Looker to add your Visualization
 5. Select the Visualization you want to use in the dropdown on the Explore to use it.
 
 
